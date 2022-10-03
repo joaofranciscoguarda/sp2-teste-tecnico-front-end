@@ -19,8 +19,6 @@ export const ContextProvider = ({ children }: AuxProps) => {
   const [data, setData] = useState<dataLocal>(() => {
     const localStorageData = localStorage.getItem("@calc:values");
 
-    console.log(localStorageData);
-
     if (localStorageData) {
       return JSON.parse(localStorageData);
     }

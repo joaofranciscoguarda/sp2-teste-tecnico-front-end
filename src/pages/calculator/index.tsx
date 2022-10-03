@@ -26,7 +26,6 @@ function Calculator() {
   const handleCalc: SubmitHandler<FormValues> = async (
     requestData: FormValues
   ) => {
-    console.log(data);
 
     const response = await api.post("", {
       ...requestData,
