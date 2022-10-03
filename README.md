@@ -1,15 +1,21 @@
-# react-ts-vitest-template
+# Entrega - Desafio: vaga Front-End - JUNIOR
 
-A template which uses the following stack:
+## This app calculates anticipation of installments
 
-- React
-- TypeScript
-- Vite
-- Vitest
-- React Testing Library
+It uses an API to calculates
+Project created using ReactTs + Styled Components + react-hook-form
 
-## Inspiration
+## How to start the app
 
-This template was inspired by these GitHub issues:
-- https://github.com/vitest-dev/vitest/issues/517
-- https://github.com/testing-library/jest-dom/issues/427
+### First install all dependencies
+```
+yarn
+#or
+yarn install
+```
+
+### Just let Vite do all his stuff and test your self
+
+```
+yarn dev
+```
