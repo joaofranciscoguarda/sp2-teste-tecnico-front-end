@@ -19,3 +19,5 @@ yarn install
 ```
 yarn dev
 ```
+
+Note: Tests were not included, Vite its a new tool and I'm having difficulties with the configuration, but I'm planning to make some front-end tests
